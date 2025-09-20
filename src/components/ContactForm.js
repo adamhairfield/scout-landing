@@ -135,7 +135,7 @@ const ContactForm = () => {
               onChange={handleChange}
               required
               rows="4"
-              placeholder="Describe the type of merchandise you need (jerseys, banners, helmets, etc.) and any specific requirements..."
+              placeholder="Describe the type of merchandise you need and any specific requirements..."
             />
           </div>
           

@@ -28,24 +28,6 @@ const Hero = () => {
           <button className="hero-cta" onClick={scrollToForm}>
             Place your order
           </button>
-          <div className="hero-stats">
-            <div className="stat">
-              <div className="stat-number">500+</div>
-              <div className="stat-label">Teams Served</div>
-            </div>
-            <div className="stat">
-              <div className="stat-number">50K+</div>
-              <div className="stat-label">Orders Fulfilled</div>
-            </div>
-            <div className="stat">
-              <div className="stat-number">24hr</div>
-              <div className="stat-label">Turnaround</div>
-            </div>
-            <div className="stat">
-              <div className="stat-number">100%</div>
-              <div className="stat-label">Satisfaction</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
