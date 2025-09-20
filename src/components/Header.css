@@ -17,10 +17,10 @@
 
 .logo {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: bolder;
   font-style: italic;
   color: #333333;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
 }
 
 .hamburger-menu {
