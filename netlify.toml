@@ -15,5 +15,5 @@
 # Form notifications
 [forms]
   [forms.contact]
-    to = "banners@teamscout.co"
+    to = "hello@teamscout.co"
     subject = "New Custom Team Gear Inquiry from Scout Landing Page"
