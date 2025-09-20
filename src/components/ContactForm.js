@@ -80,7 +80,7 @@ const ContactForm = () => {
 
           {submitStatus === 'error' && (
             <div className="error-message">
-              Sorry, there was an error sending your message. Please try again or contact us directly at hello@teamscout.co
+              Sorry, there was an error sending your message. Please try again or contact us directly at banners@teamscout.co
             </div>
           )}
 
