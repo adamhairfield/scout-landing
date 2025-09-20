@@ -1,0 +1,14 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Form notifications
+[forms]
+  [forms.contact]
+    to = "banners@teamscout.co"
+    subject = "New Custom Team Gear Inquiry from Scout Landing Page"
