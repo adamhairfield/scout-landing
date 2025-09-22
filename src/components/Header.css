@@ -21,6 +21,31 @@
   font-style: italic;
   color: #333333;
   letter-spacing: -1px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #d73527;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d73527;
+  background-color: #f8f9fa;
 }
 
 .hamburger-menu {
@@ -48,5 +73,19 @@
   
   .logo {
     font-size: 1.5rem;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .hamburger-menu {
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger-menu {
+    display: none;
   }
 }
